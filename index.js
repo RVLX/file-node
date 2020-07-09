@@ -8,6 +8,7 @@ app.use(cors());
 // 上传分片
 
 
+
 app.use(router.routes()); 
 app.use(router.allowedMethods());
 // app.use(async ctx => {
