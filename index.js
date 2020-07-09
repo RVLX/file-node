@@ -6,7 +6,7 @@ const cors = require('koa2-cors');
 app.use(cors());
 // app.use();
 // 上传分片
-  console.log('test test')
+  console.log('test')
 
 app.use(router.routes()); 
 app.use(router.allowedMethods());
