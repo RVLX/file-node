@@ -7,7 +7,7 @@ app.use(cors());
 // app.use();
 // 上传分片
 
-  console.log(12323)
+  console.log('test')
 
 app.use(router.routes()); 
 app.use(router.allowedMethods());
